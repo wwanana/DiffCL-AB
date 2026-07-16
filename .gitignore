@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and experiment artifacts
+lightning_logs/
+wandb/
+result_log/
+results/
+results_*/
+cv5_results*/
+checkpoints/
+checkpoints_*/
+*.log
+*.out
+fit_finished.flag
+fold_result.json
+cv5_fold_results.csv
+cv5_summary.json
+
+# Model weights and large binaries
+model/esm2_650m/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# Data: keep documentation, ignore raw/private datasets by default
+data/**/*.csv
+data/**/*.tsv
+data/**/*.json
+data/**/*.pkl
+data/**/*.npy
+data/**/*.npz
+!data/README.md
+
+# Temporary files
+.tmp/
+tmp/
+*.tmp
+*.swp
+*.bak
+model/esm2_650m
+checkpoints*/
+results*/
+*.pem
+*.key
