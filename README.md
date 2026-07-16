@@ -1,8 +1,5 @@
 # DiffCL-AB
 
-![Uploading image.png…]()
-
-
 ## Overview
 
 Given four amino-acid sequences—wild-type antibody, wild-type antigen, mutant antibody, and mutant antigen—the model predicts the mutation-induced binding affinity change, typically denoted as ΔΔG.
