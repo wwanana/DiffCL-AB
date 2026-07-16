@@ -137,7 +137,7 @@ bash scripts/run_cv5_ab1101.sh
 Direct command:
 
 ```bash
-python cv5_single_ab1101_resume.py \
+python cv5_single_ab1101.py \
   --data_file ./data/sigmul_data/AB1101_single.csv \
   --data_name AB1101_single \
   --output_dir ./cv5_results_AB1101_seed42 \
