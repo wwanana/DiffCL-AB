@@ -35,7 +35,6 @@ The current implementation contains:
 │   ├── run_cv5_s1131.sh
 │   └── download_esm2.py
 ├── data/
-│   └── README.md                    # Expected dataset layout
 ├── model/
 │   └── esm2_650m/                   # Local ESM2 weights; not committed
 ├── requirements.txt
@@ -93,24 +92,6 @@ python scripts/download_esm2.py --output_dir ./model/esm2_650m
 
 Verify the directory contains at least `config.json`, tokenizer files, and model weights.
 
-### 3. Prepare datasets
-
-See [`data/README.md`](data/README.md). The expected default layout is:
-
-```text
-data/
-├── sigmul_data/
-│   └── AB1101_single.csv
-└── identity_data/
-    ├── csv_AB645/
-    │   ├── AB645_train.csv
-    │   └── AB645_test.csv
-    └── csv_S1131/
-        ├── S1131_train.csv
-        └── S1131_test.csv
-```
-
-Dataset files should only be redistributed when their original licenses permit it.
 
 ## Quick smoke test
 
