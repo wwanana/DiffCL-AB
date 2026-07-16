@@ -1,8 +1,7 @@
 # DiffCL-AB
 
-Sequence-only prediction of mutation-induced antibody–antigen binding affinity changes with a frozen protein language model, interaction-aware feature learning, a parallel Mamba branch, dual contrastive learning, and difference-aware fusion.
+![Uploading image.png…]()
 
-> This repository is an academic extension of [ProtAttBA](https://github.com/code4luck/ProtAttBA). Please cite the original ProtAttBA paper and this work when using the code or data.
 
 ## Overview
 
