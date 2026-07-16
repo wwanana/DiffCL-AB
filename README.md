@@ -1,4 +1,4 @@
-# ProtAttBA-MambaCL
+# DiffCL-AB
 
 Sequence-only prediction of mutation-induced antibody–antigen binding affinity changes with a frozen protein language model, interaction-aware feature learning, a parallel Mamba branch, dual contrastive learning, and difference-aware fusion.
 
