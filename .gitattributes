@@ -1,0 +1,7 @@
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+data/** -text -whitespace
+checkpoints/*.pt binary
+*.png binary
+assets/**/*.part binary

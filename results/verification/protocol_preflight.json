@@ -1,0 +1,352 @@
+[
+  {
+    "dataset": "AB645",
+    "protocol": "ordinary",
+    "fold": 1,
+    "counts": {
+      "train": 463,
+      "validation": 52,
+      "refit": 515,
+      "test": 130
+    }
+  },
+  {
+    "dataset": "AB645",
+    "protocol": "ordinary",
+    "fold": 2,
+    "counts": {
+      "train": 463,
+      "validation": 53,
+      "refit": 516,
+      "test": 129
+    }
+  },
+  {
+    "dataset": "AB645",
+    "protocol": "ordinary",
+    "fold": 3,
+    "counts": {
+      "train": 464,
+      "validation": 52,
+      "refit": 516,
+      "test": 129
+    }
+  },
+  {
+    "dataset": "AB645",
+    "protocol": "ordinary",
+    "fold": 4,
+    "counts": {
+      "train": 465,
+      "validation": 52,
+      "refit": 517,
+      "test": 128
+    }
+  },
+  {
+    "dataset": "AB645",
+    "protocol": "ordinary",
+    "fold": 5,
+    "counts": {
+      "train": 464,
+      "validation": 52,
+      "refit": 516,
+      "test": 129
+    }
+  },
+  {
+    "dataset": "AB645",
+    "protocol": "lh30",
+    "fold": 1,
+    "counts": {
+      "train": 32,
+      "validation": 5,
+      "refit": 37,
+      "test": 177
+    }
+  },
+  {
+    "dataset": "AB645",
+    "protocol": "lh30",
+    "fold": 2,
+    "counts": {
+      "train": 119,
+      "validation": 22,
+      "refit": 141,
+      "test": 115
+    }
+  },
+  {
+    "dataset": "AB645",
+    "protocol": "lh30",
+    "fold": 3,
+    "counts": {
+      "train": 12,
+      "validation": 16,
+      "refit": 28,
+      "test": 129
+    }
+  },
+  {
+    "dataset": "AB645",
+    "protocol": "lh30",
+    "fold": 4,
+    "counts": {
+      "train": 59,
+      "validation": 22,
+      "refit": 81,
+      "test": 128
+    }
+  },
+  {
+    "dataset": "AB645",
+    "protocol": "lh30",
+    "fold": 5,
+    "counts": {
+      "train": 109,
+      "validation": 9,
+      "refit": 118,
+      "test": 96
+    }
+  },
+  {
+    "dataset": "S1131",
+    "protocol": "ordinary",
+    "fold": 1,
+    "counts": {
+      "train": 813,
+      "validation": 91,
+      "refit": 904,
+      "test": 226
+    }
+  },
+  {
+    "dataset": "S1131",
+    "protocol": "ordinary",
+    "fold": 2,
+    "counts": {
+      "train": 813,
+      "validation": 91,
+      "refit": 904,
+      "test": 226
+    }
+  },
+  {
+    "dataset": "S1131",
+    "protocol": "ordinary",
+    "fold": 3,
+    "counts": {
+      "train": 813,
+      "validation": 91,
+      "refit": 904,
+      "test": 226
+    }
+  },
+  {
+    "dataset": "S1131",
+    "protocol": "ordinary",
+    "fold": 4,
+    "counts": {
+      "train": 813,
+      "validation": 91,
+      "refit": 904,
+      "test": 226
+    }
+  },
+  {
+    "dataset": "S1131",
+    "protocol": "ordinary",
+    "fold": 5,
+    "counts": {
+      "train": 813,
+      "validation": 91,
+      "refit": 904,
+      "test": 226
+    }
+  },
+  {
+    "dataset": "S1131",
+    "protocol": "lh30",
+    "fold": 1,
+    "counts": {
+      "train": 283,
+      "validation": 25,
+      "refit": 308,
+      "test": 297
+    }
+  },
+  {
+    "dataset": "S1131",
+    "protocol": "lh30",
+    "fold": 2,
+    "counts": {
+      "train": 219,
+      "validation": 32,
+      "refit": 251,
+      "test": 130
+    }
+  },
+  {
+    "dataset": "S1131",
+    "protocol": "lh30",
+    "fold": 3,
+    "counts": {
+      "train": 252,
+      "validation": 27,
+      "refit": 279,
+      "test": 290
+    }
+  },
+  {
+    "dataset": "S1131",
+    "protocol": "lh30",
+    "fold": 4,
+    "counts": {
+      "train": 271,
+      "validation": 47,
+      "refit": 318,
+      "test": 96
+    }
+  },
+  {
+    "dataset": "S1131",
+    "protocol": "lh30",
+    "fold": 5,
+    "counts": {
+      "train": 262,
+      "validation": 15,
+      "refit": 277,
+      "test": 317
+    }
+  },
+  {
+    "dataset": "AB1101",
+    "protocol": "ordinary",
+    "fold": 1,
+    "counts": {
+      "train": 793,
+      "validation": 88,
+      "refit": 881,
+      "test": 219
+    }
+  },
+  {
+    "dataset": "AB1101",
+    "protocol": "ordinary",
+    "fold": 2,
+    "counts": {
+      "train": 791,
+      "validation": 88,
+      "refit": 879,
+      "test": 221
+    }
+  },
+  {
+    "dataset": "AB1101",
+    "protocol": "ordinary",
+    "fold": 3,
+    "counts": {
+      "train": 790,
+      "validation": 89,
+      "refit": 879,
+      "test": 221
+    }
+  },
+  {
+    "dataset": "AB1101",
+    "protocol": "ordinary",
+    "fold": 4,
+    "counts": {
+      "train": 793,
+      "validation": 88,
+      "refit": 881,
+      "test": 219
+    }
+  },
+  {
+    "dataset": "AB1101",
+    "protocol": "ordinary",
+    "fold": 5,
+    "counts": {
+      "train": 792,
+      "validation": 88,
+      "refit": 880,
+      "test": 220
+    }
+  },
+  {
+    "dataset": "AB1101",
+    "protocol": "lh30",
+    "fold": 1,
+    "counts": {
+      "train": 414,
+      "validation": 31,
+      "refit": 445,
+      "test": 242
+    }
+  },
+  {
+    "dataset": "AB1101",
+    "protocol": "lh30",
+    "fold": 2,
+    "counts": {
+      "train": 60,
+      "validation": 22,
+      "refit": 82,
+      "test": 424
+    }
+  },
+  {
+    "dataset": "AB1101",
+    "protocol": "lh30",
+    "fold": 3,
+    "counts": {
+      "train": 134,
+      "validation": 22,
+      "refit": 156,
+      "test": 142
+    }
+  },
+  {
+    "dataset": "AB1101",
+    "protocol": "lh30",
+    "fold": 4,
+    "counts": {
+      "train": 365,
+      "validation": 25,
+      "refit": 390,
+      "test": 166
+    }
+  },
+  {
+    "dataset": "AB1101",
+    "protocol": "lh30",
+    "fold": 5,
+    "counts": {
+      "train": 326,
+      "validation": 22,
+      "refit": 348,
+      "test": 126
+    }
+  },
+  {
+    "dataset": "AB1101",
+    "protocol": "mutd",
+    "counts": {
+      "train": 581,
+      "validation": 64,
+      "refit": 645,
+      "test": 455
+    }
+  },
+  {
+    "dataset": "AB1101",
+    "protocol": "mutd_lh30",
+    "counts": {
+      "train": 51,
+      "validation": 9,
+      "refit": 60,
+      "test": 455
+    }
+  }
+]

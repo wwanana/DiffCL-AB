@@ -1,42 +1,17 @@
-#!/usr/bin/env python3
+"""Download one immutable Hugging Face revision and record the resolved backbone."""
 import argparse
 from pathlib import Path
+from huggingface_hub import HfApi,snapshot_download
+from diffcl.common import sha256,write_json
 
-from transformers import AutoTokenizer, EsmModel
-
-
-def main() -> None:
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--repo_id",
-        default="facebook/esm2_t33_650M_UR50D",
-        help="Hugging Face model repository ID",
-    )
-    parser.add_argument(
-        "--output_dir",
-        default="./model/esm2_650m",
-        help="Local directory used by --model_locate",
-    )
-    args = parser.parse_args()
-
-    output_dir = Path(args.output_dir).expanduser().resolve()
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-    print(f"Downloading tokenizer from {args.repo_id}")
-    tokenizer = AutoTokenizer.from_pretrained(args.repo_id)
-    tokenizer.save_pretrained(output_dir)
-
-    print(f"Downloading model from {args.repo_id}")
-    model = EsmModel.from_pretrained(args.repo_id)
-    model.save_pretrained(output_dir)
-
-    required = [output_dir / "config.json"]
-    missing = [str(path) for path in required if not path.exists()]
-    if missing:
-        raise RuntimeError(f"Incomplete model directory; missing: {missing}")
-
-    print(f"ESM2 saved to: {output_dir}")
-
-
-if __name__ == "__main__":
-    main()
+if __name__=='__main__':
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--output',default='models/esm2_650m')
+    p.add_argument('--revision',default='main');a=p.parse_args()
+    model='facebook/esm2_t33_650M_UR50D';api=HfApi();info=api.model_info(model,revision=a.revision)
+    names={x.rfilename for x in info.siblings}
+    weight='*.safetensors' if any(x.endswith('.safetensors') for x in names) else 'pytorch_model*.bin'
+    snapshot_download(model,revision=info.sha,local_dir=a.output,allow_patterns=['*.json','vocab.txt',weight])
+    root=Path(a.output)
+    write_json(root/'backbone_manifest.json',{'model':model,'requested_revision':a.revision,'resolved_revision':info.sha,
+               'sha256':{x.name:sha256(x) for x in sorted(root.iterdir()) if x.is_file() and x.name!='backbone_manifest.json'}})
+    print(f'Backbone downloaded at immutable revision {info.sha}')

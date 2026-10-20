@@ -1,0 +1,60 @@
+{
+  "source_sha256": {
+    "AB645": "ae4d6666f39ede6f7426d7c841a60dbbfa6fa3d6916fefa0a282e226756ade6d",
+    "AB1101": "0afc90b92f78902148e814d92f173f3a203a1fd60026333e383e126be4a7f449",
+    "S1131": "8d454a13ad1070816ed956224d81e2f8cd95bce985aa56d794700afeaec74fe8"
+  },
+  "AB1101_sequence_reconciled_source_rows": [
+    856,
+    857,
+    858,
+    859,
+    860,
+    861,
+    862,
+    863,
+    864,
+    865,
+    866,
+    867,
+    868,
+    869,
+    870,
+    871,
+    872,
+    873,
+    874,
+    875,
+    876,
+    877,
+    878,
+    879,
+    880,
+    881,
+    882
+  ],
+  "S1131_excluded_unchanged_source_rows": [
+    311
+  ],
+  "AB645": {
+    "records": 645,
+    "complexes": 29,
+    "repeated_input_rows": 6,
+    "conflicting_input_groups": 3,
+    "assigned_8_labels": 27
+  },
+  "AB1101": {
+    "records": 1100,
+    "complexes": 32,
+    "repeated_input_rows": 12,
+    "conflicting_input_groups": 6,
+    "assigned_8_labels": 50
+  },
+  "S1131": {
+    "records": 1130,
+    "complexes": 112,
+    "repeated_input_rows": 0,
+    "conflicting_input_groups": 0,
+    "assigned_8_labels": 0
+  }
+}

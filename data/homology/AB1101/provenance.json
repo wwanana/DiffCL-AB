@@ -1,0 +1,10 @@
+{
+  "origin": "deposited AB1101-MutD-LH30 direct-hit table from research project archive diffcl_review_20261008T072008_304403Z.zip",
+  "unique_sequences": 983,
+  "fasta_reconstruction": "seq_id and sequence columns of sequence_manifest.csv, original row order",
+  "minimum_identity": 0.3,
+  "minimum_query_coverage": 0.8,
+  "minimum_target_coverage": 0.8,
+  "fasta_sha256": "9cbb735c83cde0845d1b3cc6a65b410b3ea473c2de6ad80693362b0d94e88ddd",
+  "hits_sha256": "40125c2278c3c81537513a362b339dade234cffd4f5aacd9815d768d7c4736d1"
+}

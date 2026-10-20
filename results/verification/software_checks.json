@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-20",
+  "tests_passed": 33,
+  "tests_failed": 0,
+  "scope": "CPU small-ESM functionality, six model variants, training/validation/test, checkpoint roundtrip and inference, split/data/metric checks",
+  "formal_gpu_retraining_performed": false,
+  "archived_455_prediction_metrics_recomputed": true,
+  "protocol_partitions_preflighted": 32,
+  "python": "3.12.14",
+  "packages": {
+    "torch": "2.7.1+cpu",
+    "transformers": "5.3.0",
+    "pytorch-lightning": "2.6.1",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "pytest": "9.1.1"
+  }
+}

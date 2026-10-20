@@ -1,0 +1,29 @@
+{
+  "version": "76de5d8ae114750adc59288516d947b6a72a4b05",
+  "command": [
+    "../bin/mmseqs/bin/mmseqs",
+    "easy-search",
+    "data/homology/S1131/sequences.fasta",
+    "data/homology/S1131/sequences.fasta",
+    "data/homology/S1131/all_vs_all.tsv",
+    "data/homology/S1131/tmp",
+    "--min-seq-id",
+    "0.30",
+    "-c",
+    "0.80",
+    "--cov-mode",
+    "0",
+    "-s",
+    "7.5",
+    "--max-seqs",
+    "10000",
+    "--threads",
+    "4",
+    "--format-output",
+    "query,target,fident,qcov,tcov"
+  ],
+  "input_sha256": "11a2714e2aa7d08a328a8c0b6803e68d69b0078c9c4a9ece9c6cdd883b8a462c",
+  "fasta_sha256": "3d57163352eea8e550ba5598674cb11bc278d1f53edf8f4832fd978da7578607",
+  "hits_sha256": "2103b5c3da54a669322655623576e66b14c3505179cb23a96655cf2eeaf996f1",
+  "relation": "identity >= threshold and qcov >= 0.80 and tcov >= 0.80; direct edges, no transitive closure"
+}

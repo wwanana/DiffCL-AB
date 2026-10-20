@@ -1,68 +1,28 @@
-# Python
 __pycache__/
 *.py[cod]
-*.so
-*.egg-info/
 .pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.ipynb_checkpoints/
-
-# Environments
 .venv/
-venv/
-env/
-.env
-.env.*
-
-# IDE / OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Logs and experiment artifacts
+models/
+runs/
 lightning_logs/
-wandb/
-result_log/
-results/
-results_*/
-cv5_results*/
-checkpoints/
-checkpoints_*/
-*.log
-*.out
-fit_finished.flag
-fold_result.json
-cv5_fold_results.csv
-cv5_summary.json
+data/homology/*/tmp/
+*.egg-info/
+checkpoints/.*
 
-# Model weights and large binaries
-model/esm2_650m/
-*.ckpt
-*.pt
-*.pth
-*.bin
-*.safetensors
-*.onnx
-
-# Data: keep documentation, ignore raw/private datasets by default
-data/**/*.csv
-data/**/*.tsv
-data/**/*.json
-data/**/*.pkl
-data/**/*.npy
-data/**/*.npz
-!data/README.md
-
-# Temporary files
-.tmp/
-tmp/
-*.tmp
-*.swp
-*.bak
-model/esm2_650m
-checkpoints*/
-results*/
-*.pem
-*.key
+# Restored losslessly by scripts.prepare_assets.
+/data/cases/structures/1DQJ.pdb
+/data/cases/structures/1N8Z.pdb
+/data/homology/AB1101/all_vs_all.tsv
+/data/homology/S1131/all_vs_all.tsv
+/data/processed/AB1101.csv
+/data/processed/AB645.csv
+/data/processed/S1131.csv
+/data/protocols/mutd/inner_train.csv
+/data/protocols/mutd/refit_train.csv
+/data/protocols/mutd/test.csv
+/data/protocols/mutd_lh30/test.csv
+/data/source/AB1101.csv
+/data/source/AB645.csv
+/data/source/S1131.csv
+/checkpoints/mutd_seed42.pt
+/figures/three_cases.png

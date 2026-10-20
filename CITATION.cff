@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the DiffCL-AB manuscript and the data/software references listed in README.md."
+type: software
+title: "DiffCL-AB: A Sequence-Only Difference-Aware Contrastive Learning Framework for Predicting Antibody–Antigen Binding Affinity Changes upon Mutation"
+authors:
+  - family-names: Hong
+    given-names: Weixiong
+  - family-names: Wei
+    given-names: Jinzhu
+  - family-names: Duan
+    given-names: Hongliang
+  - family-names: Wei
+    given-names: Leyi
+  - family-names: Zheng
+    given-names: Liangzhen
+  - family-names: Guo
+    given-names: Jingjing
+repository-code: "https://github.com/wwanana/DiffCL-AB"
+url: "https://github.com/wwanana/DiffCL-AB"
+version: "2026.10.20"
+date-released: "2026-10-20"

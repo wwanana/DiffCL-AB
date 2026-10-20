@@ -1,0 +1,17 @@
+{
+  "frozen_date": "2026-10-08",
+  "standard_results_available_at_selection": true,
+  "strict_results_available_at_selection": false,
+  "selection_type": "post hoc illustrative favorable cases, not an unbiased estimate of accuracy",
+  "eligible": "held-out multi-mutants with quantitative labels in the three original PDB complexes",
+  "rationale": "retain original biological systems; illustrate near-neutral, strong, and moderate changes; include light, heavy, and antigen sites; choose interpretable cases with modest observed errors",
+  "frozen_source_indices": [
+    104,
+    4,
+    363
+  ],
+  "strict_followup_rule": "use these same rows for every declared strict seed, regardless of resulting errors",
+  "all_three_complex_candidates_file": "all_candidates_three_complexes.csv",
+  "full_cohort_metrics_file": "metrics_with_training_baselines.csv",
+  "plus8_policy": "retain all records for original benchmark; additionally exclude assigned +8.00 nonbinder labels for quantitative sensitivity analysis and figure case eligibility"
+}

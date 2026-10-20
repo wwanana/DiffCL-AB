@@ -1,0 +1,8 @@
+{
+  "mean": 1.2671937984496122,
+  "std": 1.9659744714318468,
+  "ddof": 1,
+  "n_train": 645,
+  "training_data_sha256": "edf7e5eba5658994daa0fd6ed2f8be1986daa6afa4247e37ea7a1c28a629ae1f",
+  "origin": "recomputed from the deposited final refit training CSV"
+}

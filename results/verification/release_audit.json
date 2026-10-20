@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "verified_asset_count": 41,
+  "records": {
+    "AB645": 645,
+    "S1131": 1130,
+    "AB1101": 1100
+  },
+  "protocols": {
+    "mutd": {
+      "train": 581,
+      "validation": 64,
+      "refit": 645,
+      "test": 455
+    },
+    "mutd_lh30": {
+      "train": 51,
+      "validation": 9,
+      "refit": 60,
+      "test": 455
+    }
+  },
+  "checkpoint_tensors": 137,
+  "checkpoint_parameters": 5820801,
+  "mutation_depth": {
+    "test_records": 455,
+    "annotation_multiple": 455,
+    "encoded_multiple": 298,
+    "annotation_encoded_disagreement": 275
+  },
+  "cases": {
+    "cases": 3,
+    "verified_distances": 22,
+    "maximum_rounding_error_A": 4.974737324303646e-07,
+    "coordinates": "wild type only",
+    "selection": "post hoc; represented parent complexes; not independent validation"
+  },
+  "cuda_available": false
+}
